@@ -1,0 +1,145 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#root {
+  display: flex;
+  position: fixed;
+
+  height: 100%;
+  width: 80%;
+
+  left: 10%;
+
+  background-color: rgb(155, 151, 151);
+}
+
+.Main_div {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.Hour_div {
+  height: 100%;
+  width: 33%;
+
+  /* background-color: cornflowerblue; */
+
+  display: flex;
+  flex-direction: row;
+}
+
+.Minute_div {
+  height: 100%;
+  width: 33%;
+
+  /* background-color: darkcyan; */
+
+  display: flex;
+  flex-direction: row;
+}
+
+.Second_div {
+  height: 100%;
+  width: 33%;
+
+  /* background-color: lightslategray; */
+
+  display: flex;
+  flex-direction: row;
+}
+
+.Hour_div_left {
+  position: relative;
+  top: 5%;
+  left: 70%;
+
+  height: 13.5%;
+  width: 10%;
+
+  background-color: rgb(73, 72, 72);
+  border-radius: 5px;
+
+  box-shadow: 1px 1px 5px rgb(235, 232, 232);
+}
+.Hour_div_right {
+  position: relative;
+  top: 5%;
+  left: 80%;
+
+  height: 45%;
+  width: 10%;
+
+  background-color: rgb(73, 72, 72);
+  border-radius: 5px;
+
+  box-shadow: 1px 1px 5px rgb(235, 232, 232);
+}
+.Minute_div_left {
+  position: relative;
+  top: 5%;
+  left: 35%;
+
+  height: 27%;
+  width: 10%;
+
+  background-color: rgb(73, 72, 72);
+  border-radius: 5px;
+
+  box-shadow: 1px 1px 5px rgb(235, 232, 232);
+}
+.Minute_div_right {
+  position: relative;
+  top: 5%;
+  left: 45%;
+
+  height: 45%;
+  width: 10%;
+
+  background-color: rgb(73, 72, 72);
+  border-radius: 5px;
+
+  box-shadow: 1px 1px 5px rgb(235, 232, 232);
+}
+.Second_div_left {
+  position: relative;
+  top: 5%;
+
+  height: 27%;
+  width: 10%;
+
+  background-color: rgb(73, 72, 72);
+  border-radius: 5px;
+
+  box-shadow: 1px 1px 5px rgb(235, 232, 232);
+}
+.Second_div_right {
+  position: relative;
+  top: 5%;
+  left: 10%;
+
+  height: 45%;
+  width: 10%;
+
+  background-color: rgb(73, 72, 72);
+  border-radius: 5px;
+
+  box-shadow: 1px 1px 5px rgb(235, 232, 232);
+}
+.frame_div {
+  position: absolute;
+  height: 35px;
+  width: 60%;
+  top: 325px;
+  left: 20%;
+  border-style: groove;
+  border: solid rgb(192, 7, 7);
+}
